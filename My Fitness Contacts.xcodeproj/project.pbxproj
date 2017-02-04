@@ -12,16 +12,18 @@
 		DEE8804B1E43812200A8B1E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE880491E43812200A8B1E5 /* Main.storyboard */; };
 		DEE8804D1E43812300A8B1E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE8804C1E43812300A8B1E5 /* Assets.xcassets */; };
 		DEE880501E43812300A8B1E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE8804E1E43812300A8B1E5 /* LaunchScreen.storyboard */; };
+		DEE880581E438EAC00A8B1E5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE880571E438EAC00A8B1E5 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DEE880421E43812200A8B1E5 /* Contact App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE880421E43812200A8B1E5 /* My Fitness Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Fitness Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE880451E43812200A8B1E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEE880471E43812200A8B1E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DEE8804A1E43812200A8B1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEE8804C1E43812300A8B1E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE8804F1E43812300A8B1E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEE880511E43812300A8B1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE880571E438EAC00A8B1E5 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		DEE880391E43812200A8B1E5 = {
 			isa = PBXGroup;
 			children = (
-				DEE880441E43812200A8B1E5 /* Contact App */,
+				DEE880441E43812200A8B1E5 /* My Fitness Contacts */,
 				DEE880431E43812200A8B1E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		DEE880431E43812200A8B1E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEE880421E43812200A8B1E5 /* Contact App.app */,
+				DEE880421E43812200A8B1E5 /* My Fitness Contacts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEE880441E43812200A8B1E5 /* Contact App */ = {
+		DEE880441E43812200A8B1E5 /* My Fitness Contacts */ = {
 			isa = PBXGroup;
 			children = (
 				DEE880451E43812200A8B1E5 /* AppDelegate.swift */,
 				DEE880471E43812200A8B1E5 /* ViewController.swift */,
+				DEE880571E438EAC00A8B1E5 /* Contact.swift */,
 				DEE880491E43812200A8B1E5 /* Main.storyboard */,
 				DEE8804C1E43812300A8B1E5 /* Assets.xcassets */,
 				DEE8804E1E43812300A8B1E5 /* LaunchScreen.storyboard */,
 				DEE880511E43812300A8B1E5 /* Info.plist */,
 			);
-			path = "Contact App";
+			path = "My Fitness Contacts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEE880411E43812200A8B1E5 /* Contact App */ = {
+		DEE880411E43812200A8B1E5 /* My Fitness Contacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEE880541E43812300A8B1E5 /* Build configuration list for PBXNativeTarget "Contact App" */;
+			buildConfigurationList = DEE880541E43812300A8B1E5 /* Build configuration list for PBXNativeTarget "My Fitness Contacts" */;
 			buildPhases = (
 				DEE8803E1E43812200A8B1E5 /* Sources */,
 				DEE8803F1E43812200A8B1E5 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Contact App";
+			name = "My Fitness Contacts";
 			productName = "Contact App";
-			productReference = DEE880421E43812200A8B1E5 /* Contact App.app */;
+			productReference = DEE880421E43812200A8B1E5 /* My Fitness Contacts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DEE8803D1E43812200A8B1E5 /* Build configuration list for PBXProject "Contact App" */;
+			buildConfigurationList = DEE8803D1E43812200A8B1E5 /* Build configuration list for PBXProject "My Fitness Contacts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEE880411E43812200A8B1E5 /* Contact App */,
+				DEE880411E43812200A8B1E5 /* My Fitness Contacts */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE880581E438EAC00A8B1E5 /* Contact.swift in Sources */,
 				DEE880481E43812200A8B1E5 /* ViewController.swift in Sources */,
 				DEE880461E43812200A8B1E5 /* AppDelegate.swift in Sources */,
 			);
@@ -260,9 +264,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Contact App/Info.plist";
+				INFOPLIST_FILE = "My Fitness Contacts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tatianalooby.Contact-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatianalooby.My-Fitness-Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +276,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Contact App/Info.plist";
+				INFOPLIST_FILE = "My Fitness Contacts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tatianalooby.Contact-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatianalooby.My-Fitness-Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEE8803D1E43812200A8B1E5 /* Build configuration list for PBXProject "Contact App" */ = {
+		DEE8803D1E43812200A8B1E5 /* Build configuration list for PBXProject "My Fitness Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEE880521E43812300A8B1E5 /* Debug */,
@@ -292,13 +296,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEE880541E43812300A8B1E5 /* Build configuration list for PBXNativeTarget "Contact App" */ = {
+		DEE880541E43812300A8B1E5 /* Build configuration list for PBXNativeTarget "My Fitness Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DEE880551E43812300A8B1E5 /* Debug */,
 				DEE880561E43812300A8B1E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
