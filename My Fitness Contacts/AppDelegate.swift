@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Contact App
+//  My Fitness Contacts
 //
 //  Created by Tatiana Looby on 02/02/2017.
 //  Copyright © 2017 Tatiana Looby. All rights reserved.
